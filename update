@@ -1,0 +1,4 @@
+#!/bin/bash
+
+lftp -c "open http://ftp.slackware.no/slackware; mirror -n -e slackware64-current /home/per/backup/slackware/"
+
