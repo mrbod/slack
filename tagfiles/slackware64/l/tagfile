@@ -114,8 +114,8 @@ libatasmart:SKP
 libbluedevil:SKP
 libcaca:SKP
 libcanberra:SKP
-libcap:SKP
-libcap-ng:SKP
+libcap:ADD
+libcap-ng:ADD
 libcddb:SKP
 libcdio:SKP
 libcdio-paranoia:SKP
