@@ -36,7 +36,7 @@ icmpinfo:SKP
 idnkit:SKP
 iftop:SKP
 imapd:SKP
-inetd:SKP
+inetd:ADD
 iproute2:SKP
 ipset:SKP
 iptables:ADD
@@ -129,7 +129,7 @@ stunnel:SKP
 tcp_wrappers:SKP
 tcpdump:SKP
 telnet:SKP
-tftp-hpa:SKP
+tftp-hpa:ADD
 tin:SKP
 traceroute:SKP
 trn:SKP
