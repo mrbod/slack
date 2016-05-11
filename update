@@ -3,5 +3,5 @@
 SOURCE=rsync://rsync.slackware.no/slackware/slackware64-current
 DEST=/home/per/backup/slackware
 
-rsync -avP $SOURCE $DEST
+rsync -avP --delete --exclude=slackware-iso/ $SOURCE $DEST
 
