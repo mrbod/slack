@@ -24,7 +24,7 @@ gettext-tools:SKP
 git:ADD
 gnu-cobol:SKP
 gperf:SKP
-guile:SKP
+guile:ADD
 help2man:SKP
 indent:SKP
 intltool:SKP

@@ -50,7 +50,7 @@ freetype:SKP
 fribidi:SKP
 fuse:SKP
 gamin:SKP
-gc:SKP
+gc:ADD
 gcr:SKP
 gd:SKP
 gdbm:SKP
@@ -127,7 +127,7 @@ libdvdread:SKP
 libevent:SKP
 libexif:SKP
 libfakekey:SKP
-libffi:SKP
+libffi:ADD
 libglade:SKP
 libgnome-keyring:SKP
 libgphoto2:SKP
@@ -180,7 +180,7 @@ libtasn1:SKP
 libtermcap:SKP
 libtheora:SKP
 libtiff:SKP
-libunistring:SKP
+libunistring:ADD
 libusb:SKP
 libusb-compat:SKP
 libusbmuxd:SKP
