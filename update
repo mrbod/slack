@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SOURCE=rsync://rsync.slackware.no/slackware/slackware64-current
-DEST=/home/per/backup/slackware
+DEST=$(dirname $(realpath $0))
 
 rsync -avP --delete --exclude=slackware-iso/ $SOURCE $DEST
 

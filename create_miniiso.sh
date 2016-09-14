@@ -11,7 +11,7 @@
 #   Eric Hameleers <alien@slackware.com> 21-sep-2006
 # -------------------------------------------------------------------------
 
-BASEDIR=/home/per/backup/slackware
+BASEDIR=$(dirname $(realpath $0))
 
 # Set this to the Slackware release you want to create this mini iso for:
 RELEASE=${RELEASE:-"current"}
