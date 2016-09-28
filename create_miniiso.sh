@@ -32,7 +32,7 @@ STAGING=${STAGING:-"/tmp/slackboot"}
 
 # ----------------------------------------------------------------------
 
-BUILDER="Per Forser <per.forser@binar.se>"
+BUILDER="Per Forser <per.forser@gmail.com>"
 DATE=`date +"%d_%b_%Y"`
 
 # Do not tolerate sloppy scripting:
