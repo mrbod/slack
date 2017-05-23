@@ -1,7 +1,7 @@
 #!/bin/bash
 
-MIRROR=ftp.acc.umu.se/mirror/slackware.com
-SOURCE=rsync://$MIRROR/slackware64-current
+MIRROR=rsync://mirror.cs.princeton.edu/slackware/
+SOURCE=$MIRROR/slackware64-current
 DEST=$(dirname $(realpath $0))
 
 rsync -avP --delete --exclude=slackware-iso/ $SOURCE $DEST
