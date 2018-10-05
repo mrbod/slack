@@ -1,6 +1,10 @@
 #!/bin/bash
 
-MIRROR=rsync://mirror.cs.princeton.edu/slackware/
+#MIRROR=rsync://mirror.netcologne.de/slackware
+MIRROR=rsync://mirrors.kernel.org/slackware/
+#MIRROR=rsync://rsync.slackware.no/slackware/
+#MIRROR=rsync://ftp.sunet.se/mirror/slackware.com/
+#MIRROR=rsync://mirror.cs.princeton.edu/slackware/
 SOURCE=$MIRROR/slackware64-current
 DEST=$(dirname $(realpath $0))
 
